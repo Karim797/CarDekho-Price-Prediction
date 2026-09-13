@@ -4,7 +4,9 @@
 
 End-to-end regression for estimating used-car selling prices, covering cleaning, feature engineering, leakage-safe preprocessing, cross-validation, model comparison, tuning, diagnostics, and model persistence.
 
-![CarDekho Streamlit application](assets/app-screenshot.jpg)
+![CarDekho Streamlit demo](assets/app-demo.gif)
+
+[Download the HD MP4 demo](assets/app-demo.mp4)
 
 ## Results
 
@@ -25,7 +27,8 @@ Python, Pandas, NumPy, scikit-learn, XGBoost, Matplotlib, Seaborn, Joblib, Strea
 ├── app.py
 ├── regression_project.ipynb
 ├── cardekho.csv
-├── assets/app-screenshot.jpg
+├── assets/app-demo.gif
+├── assets/app-demo.mp4
 ├── requirements.txt
 ├── LICENSE
 └── README.md
