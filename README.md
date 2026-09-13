@@ -1,19 +1,49 @@
-# CarDekho Used-Car Price Regression
+# CarDekho Used-Car Price Prediction
 
-**[Open the live Streamlit app](https://karim797-cardekho-price.streamlit.app/)**
+[![Live App](https://img.shields.io/badge/Streamlit-Live_Demo-FF4B4B?logo=streamlit&logoColor=white)](https://karim797-cardekho-price.streamlit.app/)
 
-End-to-end regression with data cleaning, feature engineering, leakage-safe preprocessing, cross-validation, model comparison, hyperparameter tuning, target-transformation comparison, diagnostics, and model persistence.
+End-to-end regression for estimating used-car selling prices, covering cleaning, feature engineering, leakage-safe preprocessing, cross-validation, model comparison, tuning, diagnostics, and model persistence.
 
-## Latest clean-run result
+![CarDekho Streamlit application](assets/app-screenshot.jpg)
+
+## Results
 
 - Selected model: tuned Gradient Boosting
 - Target strategy: raw target
-- Test R²: 0.9277
-- Test RMSE: 125,946.27
-- Test MAPE: 17.16%
+- Test R²: **0.9277**
+- Test RMSE: **125,946.27**
+- Test MAPE: **17.16%**
 
-## Run
+## Technologies
 
-Place the CSV in `data/cardekho.csv` and run `regression_project.ipynb` from top to bottom.
+Python, Pandas, NumPy, scikit-learn, XGBoost, Matplotlib, Seaborn, Joblib, Streamlit, Jupyter.
 
-Run the interactive app with `streamlit run app.py`.
+## Project Structure
+
+```text
+.
+├── app.py
+├── regression_project.ipynb
+├── cardekho.csv
+├── assets/app-screenshot.jpg
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
+## How to Run
+
+```bash
+git clone https://github.com/Karim797/CarDekho-Price-Prediction.git
+cd CarDekho-Price-Prediction
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Open `regression_project.ipynb` to reproduce the complete experiment.
+
+## License
+
+Released under the [MIT License](LICENSE).
