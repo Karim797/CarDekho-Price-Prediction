@@ -14,3 +14,4 @@ End-to-end regression with data cleaning, feature engineering, leakage-safe prep
 
 Place the CSV in `data/cardekho.csv` and run `regression_project.ipynb` from top to bottom.
 
+Run the interactive app with `streamlit run app.py`.
