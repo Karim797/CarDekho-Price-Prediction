@@ -1,5 +1,7 @@
 # CarDekho Used-Car Price Regression
 
+**[Open the live Streamlit app](https://karim797-cardekho-price.streamlit.app/)**
+
 End-to-end regression with data cleaning, feature engineering, leakage-safe preprocessing, cross-validation, model comparison, hyperparameter tuning, target-transformation comparison, diagnostics, and model persistence.
 
 ## Latest clean-run result
